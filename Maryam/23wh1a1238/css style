@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #1e3a8a;
+    --secondary-color: #f59e0b;
+    --bg-color: #f8fafc;
+    --text-color: #1f2937;
+    --card-bg: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+header p {
+    margin: 4px 0;
+    color: #555;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: var(--secondary-color);
+    border-left: 5px solid var(--primary-color);
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p, li {
+    line-height: 1.7;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.badge {
+    background: var(--primary-color);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.8em;
+    margin-left: 6px;
+}
